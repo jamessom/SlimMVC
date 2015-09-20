@@ -1,5 +1,4 @@
 <?php
-
 // GET index route
 $app->get('/', function () use ($app) {
     $oStuff = new models\Stuff();
